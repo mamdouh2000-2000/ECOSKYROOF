@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img-1{
+    position: absolute;
+     z-index: 1;
+}
+.header{
+    background-color: azure;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 90;
+}
+.header img {
+    margin-top: -40px;
+    margin-left: 70px;
+    float: left;
+}
+.links{
+     padding:20px  100px;
+    float:right;
+    
+}
+.links li {
+    display: inline;
+    margin-left:40px;
+       position: relative; 
+}
+.links li a {
+     text-decoration: none;
+     font-size:18px;
+     text-transform: uppercase; 
+     color: black;   
+}
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sign-up{
+ width: 100%;
+}
+.perant{
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+}
+.component{
+     position: absolute;
+     z-index: 2;
+     top: 5%;
+     left: 9.7%;
+     width: 600px;
+     height: 670px;
+     float: left;
+     font-size: 40px;
+     padding: 320px 105px;
+     color: aliceblue;
+     Backdrop-filter:blur(10px)
+}
+.information{
+    position: absolute;
+     z-index: 2;
+     top: 13%;
+     left: 49%;
+     width: 600px;
+     height: 600px;
+     background-color: rgba(17, 15, 15 , .8);
+     float: left;
+      Backdrop-filter:blur(15px);
+     padding: 0px 50px;
+     color: aliceblue;
+}
+input{
+  margin: 23px 30px;
+  background: none;
+  border: none;
+  outline: none;
+  max-width: 190px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 9999px;
+  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+  color: #fff;
+}
+.sign-up-h1{
+    padding: 30px 50px 0px 50px;
+font-size: 30px;
+}
+hr{
+    width: 350px;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(2, 0, 0 , 0.3);
+}
+button{
+    width: 150PX;
+ padding: 17PX;
+ border: 2px solid rgba(5, 5, 161, 0.175);
+ background-color: aqua;
+ border-radius: 50PX;
+ font-size: 16PX;
+ margin-left: 30%;
+}
+button:hover{
+    background-color: rgba(0, 255, 255, 0.518);
+}
